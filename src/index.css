@@ -257,3 +257,24 @@ ul {
 Project CSS
 ===============
 */
+.btns-container {
+
+  & > :first-child{
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 0;
+    background-color: transparent;
+  }
+
+  & > :nth-child(2){
+    display: block;
+    margin: auto;
+    margin-top: 40vh;
+    background-color: #49a6e9;
+    border: 0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+  }
+}
