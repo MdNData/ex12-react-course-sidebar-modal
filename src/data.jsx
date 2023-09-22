@@ -14,31 +14,31 @@ import {
 export const links = [
   {
     id: 1,
-    url: "./",
+    url: "/ex12-react-course-sidebar-modal/",
     text: "home",
     icon: <FaHome />,
   },
   {
     id: 2,
-    url: "./team",
+    url: "/ex12-react-course-sidebar-modal/team",
     text: "team",
     icon: <FaUserFriends />,
   },
   {
     id: 3,
-    url: "./projects",
+    url: "/ex12-react-course-sidebar-modal/projects",
     text: "projects",
     icon: <FaFolderOpen />,
   },
   {
     id: 4,
-    url: "./calendar",
+    url: "/ex12-react-course-sidebar-modal/calendar",
     text: "calendar",
     icon: <FaCalendarAlt />,
   },
   {
     id: 5,
-    url: "./documents",
+    url: "/ex12-react-course-sidebar-modal/documents",
     text: "documents",
     icon: <FaWpforms />,
   },
