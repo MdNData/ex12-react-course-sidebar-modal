@@ -14,12 +14,10 @@ function Home() {
 
   return (
     <div className="btns-container">
-      <button onClick={isModalOpen ? closeModal : openModal}>
+      <button onClick={isSidebarOpen ? closeSidebar : openSidebar}>
         <MenuButton color="#49a6e9" />
       </button>
-      <button onClick={isSidebarOpen ? closeSidebar : openSidebar}>
-        Show Modal
-      </button>
+      <button onClick={isModalOpen ? closeModal : openModal}>Show Modal</button>
     </div>
   );
 }

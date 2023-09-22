@@ -36,12 +36,7 @@ const MenuButton = ({
   };
 
   return (
-    <div
-      style={{ width: containerWidth + "px", cursor: "pointer" }}
-      onClick={() => {
-        setPosition(!position);
-      }}
-    >
+    <div style={{ width: containerWidth + "px", cursor: "pointer" }}>
       <span
         style={
           position

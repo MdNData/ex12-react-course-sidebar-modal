@@ -1,6 +1,3 @@
-#### Home Component
-
-In Home, set up two buttons and get two functions from global context, openSidebar and openModal. Once the user clicks the button, invoke one of the functions. Set up CSS for the buttons.
 
 #### Modal and Sidebar Component
 
